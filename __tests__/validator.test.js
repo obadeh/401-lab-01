@@ -108,15 +108,15 @@ describe('validator module performs complex validations', () => {
     expect(person.name).toMatch('name')
   });
 
-  it('validates the types of values contained in an array', () => {
-    // i.e. an array of all strings or numbers
-    expect(true).toBeFalsy();
-  });
+  // it('validates the types of values contained in an array', () => {
+  //   // i.e. an array of all strings or numbers
+  //   expect(true).toBeFalsy();
+  // });
 
-  it('validates a value array against an approved list', () => {
-    // i.e. a string might only be allowed to be "yes" or "no"
-    expect(true).toBeFalsy();
-  });
+  // it('validates a value array against an approved list', () => {
+  //   // i.e. a string might only be allowed to be "yes" or "no"
+  //   expect(true).toBeFalsy();
+  // });
 
   // TODO: Cover so, so many more cases
 
